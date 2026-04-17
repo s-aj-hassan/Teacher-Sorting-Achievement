@@ -18,10 +18,18 @@ The folder **code** above contains all Stata dofiles to construct the data from 
 |----------|----------|
 | 1   | `do\analyses\sortdist.do`   |
 | 2   | `do\analyses\sortgrad.do`   |
-| 3   | `do\analyses\teacher_changes_desc.do | 
-| 4   | `do\analyses\desc_parental_leaves.do |
+| 3   | `do\analyses\teacher_changes_desc.do` | 
+| 4   | `do\analyses\desc_parental_leaves.do` |
 | 5   | `do\analyses\exogeneity.do` |
 | 6   | `do\analyses\fe_student_exog_shock_results.do` |
 | 7   | `do\analyses\fe_student_exog_shock_results.do` |
-| 8   | `do\covars\students_ses_index.do` |
+| B1  | `do\covars\students_ses_index.do` |
 
+Tables
+
+| Table | Location in code |
+|----------|----------|
+| 1   | `do\analyses\fe_student_exog_shock_results.do`  |
+| A1  | `do\analyses\exogeneity.do` |
+| A2  | `do\analyses\fe_student_exog_shock_results.do` |
+| A3  |  `do\analyses\fe_student_exog_shock_results.do` |
