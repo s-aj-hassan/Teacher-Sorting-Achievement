@@ -10,4 +10,6 @@ The analysis uses confidential administrative register data from Denmark accesse
 
 ## Code 
 
-The folder **code** above contains all Stata dofiles to construct the data from the administrative registers and to conduct all analyses. 
+The folder **code** above contains all Stata dofiles to construct the data from the raw administrative registers and to conduct all analyses in the paper. The file `master.do' constructs all datasets and produces all tables and figures. 
+
+## Figures and Tables 
