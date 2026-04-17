@@ -1,0 +1,21 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular*}{\hsize}{@{\hskip\tabcolsep\extracolsep\fill}l*{4}{c}}
+\toprule
+            &\multicolumn{2}{c}{Danish}                 &\multicolumn{2}{c}{Mathematics}            \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{Low-SES}&\multicolumn{1}{c}{High-SES}&\multicolumn{1}{c}{Low-SES}&\multicolumn{1}{c}{High-SES}\\
+\midrule
+d\_spceqv\_p  &       0.201\sym{**} &       0.077         &       0.026         &       0.113\sym{**} \\
+            &     (0.062)         &     (0.049)         &     (0.050)         &     (0.036)         \\
+d\_spceqv\_m  &       0.055         &    $-$0.038         &    $-$0.101         &       0.026         \\
+            &     (0.048)         &     (0.038)         &     (0.062)         &     (0.070)         \\
+Any change  &    $-$0.061\sym{***}&    $-$0.053\sym{***}&    $-$0.087\sym{***}&    $-$0.084\sym{***}\\
+            &     (0.004)         &     (0.003)         &     (0.008)         &     (0.007)         \\
+Constant    &    $-$0.130\sym{***}&       0.332\sym{***}&    $-$0.181\sym{***}&       0.341\sym{***}\\
+            &     (0.001)         &     (0.001)         &     (0.002)         &     (0.002)         \\
+\midrule
+ \textit{N} (observations)&     171,022         &     201,708         &      52,698         &      60,586         \\
+\bottomrule
+\end{tabular*}
+}

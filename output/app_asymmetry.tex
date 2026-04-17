@@ -1,0 +1,41 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular*}{\hsize}{@{\hskip\tabcolsep\extracolsep\fill}l*{8}{c}}
+\toprule
+                    &\multicolumn{4}{c}{Danish}                                                             &\multicolumn{4}{c}{Mathematics}                                                        \\\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+\midrule
+Certified, positive &       0.092\sym{*}  &                     &                     &                     &    $-$0.114         &                     &                     &                     \\
+                    &     (0.045)         &                     &                     &                     &     (0.094)         &                     &                     &                     \\
+\addlinespace
+Certified, negative &    $-$0.013         &                     &                     &                     &    $-$0.041         &                     &                     &                     \\
+                    &     (0.027)         &                     &                     &                     &     (0.048)         &                     &                     &                     \\
+\addlinespace
+Specialized, positive&                     &       0.133\sym{***}&                     &                     &                     &       0.077\sym{**} &                     &                     \\
+                    &                     &     (0.039)         &                     &                     &                     &     (0.030)         &                     &                     \\
+\addlinespace
+Specialized, negative&                     &       0.002         &                     &                     &                     &    $-$0.037         &                     &                     \\
+                    &                     &     (0.030)         &                     &                     &                     &     (0.047)         &                     &                     \\
+\addlinespace
+Experienced, positive&                     &                     &       0.030         &                     &                     &                     &       0.094\sym{*}  &                     \\
+                    &                     &                     &     (0.022)         &                     &                     &                     &     (0.040)         &                     \\
+\addlinespace
+Experienced, negative&                     &                     &    $-$0.020         &                     &                     &                     &    $-$0.004         &                     \\
+                    &                     &                     &     (0.022)         &                     &                     &                     &     (0.039)         &                     \\
+\addlinespace
+High school GPA, positive&                     &                     &                     &       0.013         &                     &                     &                     &       0.024         \\
+                    &                     &                     &                     &     (0.013)         &                     &                     &                     &     (0.022)         \\
+\addlinespace
+High school GPA, negative&                     &                     &                     &       0.023         &                     &                     &                     &       0.012         \\
+                    &                     &                     &                     &     (0.013)         &                     &                     &                     &     (0.024)         \\
+\addlinespace
+Any change          &    $-$0.056\sym{***}&    $-$0.057\sym{***}&    $-$0.056\sym{***}&    $-$0.056\sym{***}&    $-$0.084\sym{***}&    $-$0.085\sym{***}&    $-$0.086\sym{***}&    $-$0.096\sym{***}\\
+                    &     (0.003)         &     (0.003)         &     (0.003)         &     (0.004)         &     (0.005)         &     (0.005)         &     (0.005)         &     (0.009)         \\
+\addlinespace
+Constant            &       0.120\sym{***}&       0.120\sym{***}&       0.120\sym{***}&       0.124\sym{***}&       0.099\sym{***}&       0.098\sym{***}&       0.099\sym{***}&       0.129\sym{***}\\
+                    &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.002)         \\
+\midrule
+ \textit{N} (observations)&     372,756         &     372,756         &     372,756         &     215,032         &     113,292         &     113,292         &     113,292         &      49,570         \\
+\bottomrule
+\end{tabular*}
+}

@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular*}{\hsize}{@{\hskip\tabcolsep\extracolsep\fill}l*{8}{c}}
+\toprule
+                    &\multicolumn{4}{c}{Danish}                                                             &\multicolumn{4}{c}{Mathematics}                                                        \\\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+\midrule
+Certified           &       0.053\sym{*}  &                     &                     &                     &       0.038         &                     &                     &                     \\
+                    &     (0.023)         &                     &                     &                     &     (0.043)         &                     &                     &                     \\
+\addlinespace
+Specialized         &                     &       0.064\sym{**} &                     &                     &                     &       0.059\sym{*}  &                     &                     \\
+                    &                     &     (0.024)         &                     &                     &                     &     (0.025)         &                     &                     \\
+\addlinespace
+Experienced         &                     &                     &       0.025         &                     &                     &                     &       0.051         &                     \\
+                    &                     &                     &     (0.016)         &                     &                     &                     &     (0.028)         &                     \\
+\addlinespace
+High school GPA     &                     &                     &                     &       0.007         &                     &                     &                     &    $-$0.000         \\
+                    &                     &                     &                     &     (0.006)         &                     &                     &                     &     (0.011)         \\
+\addlinespace
+Constant            &       0.101\sym{***}&       0.101\sym{***}&       0.101\sym{***}&       0.107\sym{***}&       0.075\sym{***}&       0.074\sym{***}&       0.074\sym{***}&       0.106\sym{***}\\
+                    &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         \\
+\midrule
+ \textit{N} (observations)&     372,756         &     372,756         &     372,756         &     215,032         &     113,292         &     113,292         &     113,292         &      49,570         \\
+ \textit{N} (students)&     186,378         &     186,378         &     186,378         &     107,516         &      56,646         &      56,646         &      56,646         &      24,785         \\
+\textit{N} (identifying obs.)&       1,041         &       1,007         &       2,056         &       8,597         &         398         &         861         &         841         &       3,156         \\
+\bottomrule
+\end{tabular*}
+}
