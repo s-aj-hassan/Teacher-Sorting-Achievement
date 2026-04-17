@@ -14,6 +14,8 @@ The folder **code** above contains all Stata dofiles to construct the data from 
 
 ## Figures and Tables
 
+Figures
+
 | Figure | Location in code |
 |----------|----------|
 | 1   | `do\analyses\sortdist.do`   |
