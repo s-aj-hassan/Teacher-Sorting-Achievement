@@ -8,6 +8,30 @@ I have written the code in Stata (version 18) and uploaded all files to this rep
 
 The analysis uses confidential administrative register data from Denmark accessed through Statistics Denmark. These data are not publicly available but require approved access through Statistics Denmark. For information on how to apply for data access, see: (https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner). 
 
+In the paper, I use the following registers 
+
+| Register | Description | 
+|--------|----------|
+| UDD_NATTEST_OPRINDELIGE | National Test Score database |
+| UDD_TRIVSEL_SMAA_KLASSER | Well-being survey grades 1-3 | 
+| UDD_TRIVSEL_STORE_KLASSER | Well-being survey grades 4-9 |
+| UDFK | GPA data grade 9 | 
+| UDKLASSE_ID | Classroom IDs | 
+| UDDLAERER | Teacher-student database | 
+| BEF | Population registers | 
+| FAIN | Population registers | 
+| AKM | The work classification module | 
+| DREAM | Weekly public transfer database | 
+| IND | Income register |
+| RAS | Employment register | 
+| INST | Institutions register | 
+| LPRMFRLF | Birth register |  
+| MFR | Birth register | 
+| UDDA | Educational attainment register | 
+| UDSF | Educational attainment register | 
+| UDG | Grades from completed educations | 
+| UDSP | Special education classes | 
+
 ## Code 
 
 The folder **code** above contains all Stata dofiles to construct the data from the raw administrative registers and to conduct all analyses in the paper. The file `master.do` constructs all datasets and produces all tables and figures. 
