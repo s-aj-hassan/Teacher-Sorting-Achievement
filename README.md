@@ -8,7 +8,7 @@ I have written the code in Stata (version 18) and uploaded all files to this rep
 
 The analysis uses confidential administrative register data from Denmark accessed through Statistics Denmark. These data are not publicly available but require approved access through Statistics Denmark. For information on how to apply for data access, see: (https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner). 
 
-In the paper, I use the following registers 
+I use the following registers 
 
 | Register | Description | 
 |--------|----------|
