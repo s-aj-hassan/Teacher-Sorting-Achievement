@@ -1,6 +1,6 @@
 # Replication Package: Teacher Sorting and Inequalities in Student Achievement
 
-This repo contains code to replicate the results in "Teacher Sorting and Inequalities in Student Achievement: Unequal Exposures and Differential Returns to Teacher Qualifications" (Said Hassan) in *Sociological Science*, 2026 [Link to paper](https://doi.org/10.15195/v13.a29).
+This repo contains code to replicate the results in "Teacher Sorting and Inequalities in Student Achievement: Unequal Exposures and Differential Returns to Teacher Qualifications" (Said Hassan) in *Sociological Science*, 2026 [[Link to paper]](https://doi.org/10.15195/v13.a29).
 
 I have written the code in Stata (version 18) and uploaded all files to this repo. For the paper, I use full population Danish register data (see below for information on how to access the data). 
 
